@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+  </head>
+  <body>
+    <script>
+      function calculateAge(birthYear) {
+        const currentYear = new Date().getFullYear();
+        return currentYear - birthYear;
+      }
+
+      const birthYear = prompt("Enter your birth year:");
+      console.log("Your age is: " + calculateAge(birthYear));
+    </script>
+  </body>
+</html>
